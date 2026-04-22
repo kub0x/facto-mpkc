@@ -1,0 +1,603 @@
+Magma is not authorised for use on this machine.
+
+This host has the following MAC address(es):
+9c:6b:00:97:c6:17
+52:54:00:f7:10:45
+
+Please ask the Designated Contact person for the Magma installation
+in your department to contact Magma at magma@maths.usyd.edu.au on
+the Internet.
+Magma V2.22-3     Tue Apr 21 2026 00:15:17 on PRISM    [Seed = 1961554069]
+Type ? for help.  Type <Ctrl>-D to quit.
+
+Loading file "facto-X1-feqs-7-15-16.txt"
+Homogeneous weights search
+Number of variables: 16, nullity: 0
+Exact search time: 0.000
+********************
+FAUGERE F4 ALGORITHM
+********************
+Coefficient ring: GF(7)
+Rank: 16
+Order: Graded Reverse Lexicographical
+NEW hash table
+Matrix kind: Modular FP (short datum)
+Datum size: 2
+No queue sort
+Initial length: 31
+Inhomogeneous
+
+Initial queue setup time: 0.000
+Initial queue length: 21
+
+*******
+STEP 1
+Basis length: 31, queue length: 21, step degree: 2, num pairs: 12
+Basis total mons: 860, average length: 27.742
+Number of pair polynomials: 12, at 65 column(s), 0.000
+Average length for reductees: 55.42 [12], reductors: 54.33 [3]
+Symbolic reduction time: 0.000, column sort time: 0.000
+12 + 3 = 15 rows / 65 columns out of 153 (42.484%)
+Density: 84.923% / 85.269% (55.2/r), total: 828 (0.0MB)
+Before ech memory: 32.1MB (=max)
+Row sort time: 0.000
+[15 threads]
+0.000 + 0.000 = 0.000 [12]
+After ech memory: 32.1MB (=max)
+Num new polynomials: 12 (100.0%), min deg: 2 [12], av deg: 2.0
+Degree counts: 2:12
+Queue insertion time: 0.000
+New max step: 1, time: 0.000
+Step 1 time: 0.000, [0.000], mat/total: 0.000/0.000, mem: 32.1MB (=max)
+
+*******
+STEP 2
+Basis length: 43, queue length: 86, step degree: 3, num pairs: 56
+Basis total mons: 1249, average length: 29.047
+Number of pair polynomials: 56, at 401 column(s), 0.000
+Average length for reductees: 34.50 [56], reductors: 36.23 [167]
+Symbolic reduction time: 0.000, column sort time: 0.000
+56 + 167 = 223 rows / 575 columns out of 969 (59.340%)
+Density: 6.2258% / 11.281% (35.798/r), total: 7983 (0.0MB)
+Before ech memory: 32.1MB (=max)
+Row sort time: 0.000
+[15 threads]
+0.000 + 0.000 = 0.000 [56]
+After ech memory: 32.1MB (=max)
+Num new polynomials: 56 (100.0%), min deg: 3 [56], av deg: 3.0
+Degree counts: 3:56
+Queue insertion time: 0.000
+Step 2 time: 0.000, [0.002], mat/total: 0.000/0.000, mem: 32.1MB (=max)
+
+*******
+STEP 3
+Basis length: 99, queue length: 583, step degree: 4, num pairs: 375
+Basis total mons: 9722, average length: 98.202
+Number of pair polynomials: 375, at 2609 column(s), 0.000
+Average length for reductees: 151.88 [375], reductors: 77.17 [1447]
+Symbolic reduction time: 0.000, column sort time: 0.000
+375 + 1447 = 1822 rows / 3008 columns out of 4845 (62.085%)
+Density: 3.0767% / 5.6581% (92.547/r), total: 168621 (0.6MB)
+Before ech memory: 32.1MB (=max)
+Row sort time: 0.000
+[15 threads]
+0.020 + 0.000 = 0.020 [158]
+After ech memory: 32.1MB, max: 41.8MB
+Num new polynomials: 158 (42.1%), min deg: 4 [158], av deg: 4.0
+Degree counts: 4:158
+Queue insertion time: 0.000
+New max step: 3, time: 0.020
+Step 3 time: 0.020, [0.015], mat/total: 0.020/0.020, mem: 32.1MB, max: 41.8MB
+
+*******
+STEP 4
+Basis length: 257, queue length: 2410, step degree: 5, num pairs: 1536
+Basis total mons: 71862, average length: 279.619
+92 pairs eliminated
+Number of pair polynomials: 1444, at 10460 column(s), 0.009
+Average length for reductees: 395.42 [1444], reductors: 133.55 [6474]
+Symbolic reduction time: 0.010, column sort time: 0.000
+1444 + 6474 = 7918 rows / 10824 columns out of 20349 (53.192%)
+Density: 1.675% / 3.0859% (181.31/r), total: 1435575 (5.5MB)
+Before ech memory: 32.1MB, max: 41.8MB
+Row sort time: 0.000
+[15 threads]
+0.199 + 0.010 = 0.210 [398]
+After ech memory: 32.1MB, max: 80.8MB
+Num new polynomials: 398 (27.6%), min deg: 5 [398], av deg: 5.0
+Degree counts: 5:398
+Queue insertion time: 0.030
+New max step: 4, time: 0.260
+Step 4 time: 0.260, [0.130], mat/total: 0.230/0.280, mem: 32.1MB, max: 80.8MB
+
+*******
+STEP 5
+Basis length: 655, queue length: 7519, step degree: 6, num pairs: 4734
+Basis total mons: 393963, average length: 601.470
+388 pairs eliminated
+Number of pair polynomials: 4346, at 30218 column(s), 0.039
+Average length for reductees: 815.83 [4346], reductors: 206.55 [21959]
+Symbolic reduction time: 0.029, column sort time: 0.010
+4346 + 21959 = 26305 rows / 31426 columns out of 74613 (42.119%)
+Density: 0.97757% / 1.8217% (307.21/r), total: 8081177 (30.8MB)
+Before ech memory: 64.1MB, max: 80.8MB
+Row sort time: 0.000
+[15 threads]
+2.050 + 0.009 = 2.060 [887]
+After ech memory: 64.1MB, max: 195.2MB
+Num new polynomials: 887 (20.4%), min deg: 6 [887], av deg: 6.0
+Degree counts: 6:887
+Queue insertion time: 0.220
+New max step: 5, time: 2.360
+Step 5 time: 2.360, [0.750], mat/total: 2.290/2.640, mem: 64.1MB, max: 195.2MB
+
+*******
+STEP 6
+Basis length: 1542, queue length: 17547, step degree: 7, num pairs: 12082
+Basis total mons: 1612018, average length: 1045.407
+1165 pairs eliminated
+Number of pair polynomials: 10917, at 69914 column(s), 0.169
+Average length for reductees: 1382.43 [10917], reductors: 288.07 [57336]
+Symbolic reduction time: 0.139, column sort time: 0.010
+10917 + 57336 = 68253 rows / 74276 columns out of 245157 (30.297%)
+Density: 0.6235% / 1.192% (463.11/r), total: 31608804 (120.6MB)
+Before ech memory: 160.2MB, max: 195.2MB
+Row sort time: 0.009
+[15 threads]
+14.439 + 0.070 = 14.509 [1884]
+After ech memory: 192.2MB, max: 493.1MB
+Num new polynomials: 1884 (17.3%), min deg: 7 [1884], av deg: 7.0
+Degree counts: 7:1884
+Queue insertion time: 1.089
+New max step: 6, time: 15.930
+Step 6 time: 15.929, [3.704], mat/total: 16.810/18.570, mem: 192.2MB, max: 
+493.1MB
+
+*******
+STEP 7
+Basis length: 3426, queue length: 36975, step degree: 8, num pairs: 27663
+Basis total mons: 5247886, average length: 1531.782
+2426 pairs eliminated
+Number of pair polynomials: 25237, at 144995 column(s), 0.580
+At 100000: 126637 rows, 179828 columns, 0.300
+Average length for reductees: 1931.02 [25237], reductors: 334.58 [166466]
+Symbolic reduction time: 0.489, column sort time: 0.039
+25237 + 166466 = 191703 rows / 192072 columns out of 735471 (26.116%)
+Density: 0.28361% / 0.65759% (544.74/r), total: 104429116 (398.4MB)
+Before ech memory: 480.5MB, max: 493.1MB
+Row sort time: 0.019
+[15 threads]
+86.760 + 0.400 = 87.160 [3761]
+After ech memory: 553.4MB, max: 1283.9MB
+Num new polynomials: 3761 (14.9%), min deg: 2 [16], av deg: 7.9
+Degree counts: 2:16 6:86 8:3659
+Queue insertion time: 4.059
+New max step: 7, time: 92.360
+Step 7 time: 92.359, [17.415], mat/total: 103.990/110.929, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 8
+Basis length: 7187, queue length: 61251, step degree: 3, num pairs: 150
+Basis total mons: 14213370, average length: 1977.650
+Number of pair polynomials: 150, at 519 column(s), 0.000
+Average length for reductees: 30.40 [150], reductors: 57.39 [274]
+Symbolic reduction time: 0.000, column sort time: 0.000
+150 + 274 = 424 rows / 520 columns out of 969 (53.664%)
+Density: 9.1999% / 15.515% (47.84/r), total: 20284 (0.1MB)
+Before ech memory: 544.6MB, max: 1283.9MB
+Row sort time: 0.000
+[15 threads]
+0.000 + 0.000 = 0.000 [104]
+After ech memory: 544.6MB, max: 1283.9MB
+Num new polynomials: 104 (69.3%), min deg: 3 [104], av deg: 3.0
+Degree counts: 3:104
+Queue insertion time: 0.120
+Step 8 time: 0.120, [0.117], mat/total: 103.990/111.049, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 9
+Basis length: 7291, queue length: 67254, step degree: 4, num pairs: 1231
+Basis total mons: 14219769, average length: 1950.318
+58 pairs eliminated
+Number of pair polynomials: 1173, at 2259 column(s), 0.000
+Average length for reductees: 59.07 [1173], reductors: 81.51 [1781]
+Symbolic reduction time: 0.000, column sort time: 0.000
+1173 + 1781 = 2954 rows / 2259 columns out of 4845 (46.625%)
+Density: 3.2138% / 5.9893% (72.6/r), total: 214459 (0.8MB)
+Before ech memory: 544.6MB, max: 1283.9MB
+Row sort time: 0.000
+[15 threads]
+0.019 + 0.000 = 0.019 [297]
+After ech memory: 544.6MB, max: 1283.9MB
+Num new polynomials: 297 (25.3%), min deg: 2 [27], av deg: 3.8
+Degree counts: 2:27 4:270
+Queue insertion time: 0.079
+Step 9 time: 0.099, [0.092], mat/total: 104.010/111.149, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 10
+Basis length: 7588, queue length: 72999, step degree: 3, num pairs: 325
+Basis total mons: 14234476, average length: 1875.919
+Number of pair polynomials: 325, at 810 column(s), 0.000
+Average length for reductees: 18.32 [325], reductors: 46.54 [555]
+Symbolic reduction time: 0.010, column sort time: 0.000
+325 + 555 = 880 rows / 830 columns out of 969 (85.655%)
+Density: 4.3517% / 9.7171% (36.119/r), total: 31785 (0.1MB)
+Before ech memory: 544.6MB, max: 1283.9MB
+Row sort time: 0.000
+[15 threads]
+0.000 + 0.000 = 0.000 [75]
+After ech memory: 544.6MB, max: 1283.9MB
+Num new polynomials: 75 (23.1%), min deg: 1 [2], av deg: 2.9
+Degree counts: 1:2 3:73
+Queue insertion time: 0.000
+Number of linears: 2
+Step 10 time: 0.010, [0.009], mat/total: 104.010/111.159, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 11
+Basis length: 7663, queue length: 73773, step degree: 2, num pairs: 24
+Basis total mons: 14235151, average length: 1857.647
+Number of pair polynomials: 24, at 137 column(s), 0.000
+Average length for reductees: 7.00 [24], reductors: 24.58 [65]
+Symbolic reduction time: 0.000, column sort time: 0.000
+24 + 65 = 89 rows / 137 columns out of 153 (89.542%)
+Density: 14.484% / 27.539% (19.843/r), total: 1766 (0.0MB)
+Before ech memory: 544.6MB, max: 1283.9MB
+Row sort time: 0.000
+[15 threads]
+0.000 + 0.000 = 0.000 [16]
+After ech memory: 544.6MB, max: 1283.9MB
+Num new polynomials: 16 (66.7%), min deg: 2 [16], av deg: 2.0
+Degree counts: 2:16
+Queue insertion time: 0.010
+Number of linears: 2
+Step 11 time: 0.010, [0.001], mat/total: 104.010/111.170, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 12
+Basis length: 7679, queue length: 73987, step degree: 3, num pairs: 178
+Basis total mons: 14235336, average length: 1853.801
+Number of pair polynomials: 178, at 572 column(s), 0.000
+Average length for reductees: 10.69 [178], reductors: 37.16 [495]
+Symbolic reduction time: 0.000, column sort time: 0.000
+178 + 495 = 673 rows / 631 columns out of 969 (65.119%)
+Density: 4.7793% / 11.443% (30.158/r), total: 20296 (0.1MB)
+Before ech memory: 544.6MB, max: 1283.9MB
+Row sort time: 0.000
+[15 threads]
+0.000 + 0.000 = 0.000 [0]
+After ech memory: 544.6MB, max: 1283.9MB
+No new polynomials
+Queue insertion time: 0.000
+Number of linears: 2
+Step 12 time: 0.000, [0.001], mat/total: 104.010/111.170, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 13
+Basis length: 7679, queue length: 73809, step degree: 4, num pairs: 1010
+Basis total mons: 14235336, average length: 1853.801
+284 pairs eliminated
+Number of pair polynomials: 726, at 893 column(s), 0.000
+Average length for reductees: 14.73 [726], reductors: 38.94 [863]
+Symbolic reduction time: 0.000, column sort time: 0.000
+726 + 863 = 1589 rows / 928 columns out of 4845 (19.154%)
+Density: 3.0044% / 7.2362% (27.88/r), total: 44302 (0.2MB)
+Before ech memory: 544.6MB, max: 1283.9MB
+Row sort time: 0.000
+[15 threads]
+0.000 + 0.000 = 0.000 [35]
+After ech memory: 544.6MB, max: 1283.9MB
+Num new polynomials: 35 (4.8%), min deg: 2 [30], av deg: 2.3
+Degree counts: 2:30 4:5
+Queue insertion time: 0.000
+Number of linears: 2
+Step 13 time: 0.000, [0.005], mat/total: 104.010/111.170, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 14
+Basis length: 7714, queue length: 73235, step degree: 3, num pairs: 322
+Basis total mons: 14235604, average length: 1845.424
+Number of pair polynomials: 322, at 562 column(s), 0.000
+Average length for reductees: 7.50 [322], reductors: 25.07 [537]
+Symbolic reduction time: 0.000, column sort time: 0.000
+322 + 537 = 859 rows / 577 columns out of 969 (59.546%)
+Density: 3.2035% / 7.942% (18.484/r), total: 15878 (0.1MB)
+Before ech memory: 544.6MB, max: 1283.9MB
+Row sort time: 0.000
+[15 threads]
+0.009 + 0.000 = 0.009 [2]
+After ech memory: 544.6MB, max: 1283.9MB
+Num new polynomials: 2 (0.6%), min deg: 3 [2], av deg: 3.0
+Degree counts: 3:2
+Queue insertion time: 0.000
+Number of linears: 2
+Step 14 time: 0.009, [0.001], mat/total: 104.020/111.179, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 15
+Basis length: 7716, queue length: 72941, step degree: 4, num pairs: 24
+Basis total mons: 14235618, average length: 1844.948
+Number of pair polynomials: 24, at 231 column(s), 0.000
+Average length for reductees: 7.00 [24], reductors: 94.72 [711]
+Symbolic reduction time: 0.000, column sort time: 0.000
+24 + 711 = 735 rows / 744 columns out of 4845 (15.356%)
+Density: 12.347% / 22.22% (91.859/r), total: 67516 (0.3MB)
+Before ech memory: 544.6MB, max: 1283.9MB
+Row sort time: 0.000
+[15 threads]
+0.000 + 0.000 = 0.000 [0]
+After ech memory: 544.6MB, max: 1283.9MB
+No new polynomials
+Queue insertion time: 0.000
+Number of linears: 2
+Step 15 time: 0.000, [0.002], mat/total: 104.020/111.179, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 16
+Basis length: 7716, queue length: 72917, step degree: 5, num pairs: 3310
+Basis total mons: 14235618, average length: 1844.948
+2803 pairs eliminated
+Number of pair polynomials: 507, at 4887 column(s), 0.000
+Average length for reductees: 50.07 [507], reductors: 122.60 [5070]
+Symbolic reduction time: 0.000, column sort time: 0.010
+507 + 5070 = 5577 rows / 5112 columns out of 20349 (25.122%)
+Density: 2.2693% / 4.8628% (116/r), total: 646959 (2.5MB)
+Before ech memory: 544.6MB, max: 1283.9MB
+Row sort time: 0.000
+[15 threads]
+0.019 + 0.000 = 0.019 [2]
+After ech memory: 544.6MB, max: 1283.9MB
+Num new polynomials: 2 (0.4%), min deg: 5 [2], av deg: 5.0
+Degree counts: 5:2
+Queue insertion time: 0.000
+Number of linears: 2
+Step 16 time: 0.030, [0.015], mat/total: 104.040/111.209, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 17
+Basis length: 7718, queue length: 69635, step degree: 6, num pairs: 1983
+Basis total mons: 14235631, average length: 1844.471
+984 pairs eliminated
+Number of pair polynomials: 999, at 14484 column(s), 0.010
+Average length for reductees: 51.84 [999], reductors: 188.21 [16310]
+Symbolic reduction time: 0.019, column sort time: 0.010
+999 + 16310 = 17309 rows / 16386 columns out of 74613 (21.961%)
+Density: 1.1005% / 2.667% (180.34/r), total: 3121428 (11.9MB)
+Before ech memory: 544.6MB, max: 1283.9MB
+Row sort time: 0.000
+[15 threads]
+0.179 + 0.000 = 0.179 [26]
+After ech memory: 544.6MB, max: 1283.9MB
+Num new polynomials: 26 (2.6%), min deg: 6 [26], av deg: 6.0
+Degree counts: 6:26
+Queue insertion time: 0.000
+Number of linears: 2
+Step 17 time: 0.219, [0.067], mat/total: 104.220/111.429, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 18
+Basis length: 7744, queue length: 68010, step degree: 7, num pairs: 3652
+Basis total mons: 14235869, average length: 1838.310
+1416 pairs eliminated
+Number of pair polynomials: 2238, at 25743 column(s), 0.030
+Average length for reductees: 49.32 [2238], reductors: 322.05 [39109]
+Symbolic reduction time: 0.090, column sort time: 0.010
+2238 + 39109 = 41347 rows / 39171 columns out of 245157 (15.978%)
+Density: 0.78448% / 1.8621% (307.29/r), total: 12705415 (48.5MB)
+Before ech memory: 544.6MB, max: 1283.9MB
+Row sort time: 0.009
+[15 threads]
+0.960 + 0.009 = 0.969 [22]
+After ech memory: 544.6MB, max: 1283.9MB
+Num new polynomials: 22 (1.0%), min deg: 5 [22], av deg: 5.0
+Degree counts: 5:22
+Queue insertion time: 0.000
+Number of linears: 2
+Step 18 time: 1.109, [0.311], mat/total: 105.200/112.539, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 19
+Basis length: 7766, queue length: 64666, step degree: 6, num pairs: 308
+Basis total mons: 14236072, average length: 1833.128
+Number of pair polynomials: 308, at 1077 column(s), 0.000
+Average length for reductees: 9.23 [308], reductors: 269.18 [4525]
+Symbolic reduction time: 0.010, column sort time: 0.000
+308 + 4525 = 4833 rows / 4575 columns out of 74613 (6.132%)
+Density: 5.5216% / 9.596% (252.61/r), total: 1220870 (4.7MB)
+Before ech memory: 544.6MB, max: 1283.9MB
+Row sort time: 0.000
+[15 threads]
+0.019 + 0.000 = 0.019 [20]
+After ech memory: 544.6MB, max: 1283.9MB
+Num new polynomials: 20 (6.5%), min deg: 4 [20], av deg: 4.0
+Degree counts: 4:20
+Queue insertion time: 0.000
+Number of linears: 2
+Step 19 time: 0.030, [0.025], mat/total: 105.220/112.569, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 20
+Basis length: 7786, queue length: 64638, step degree: 5, num pairs: 279
+Basis total mons: 14236265, average length: 1828.444
+Number of pair polynomials: 279, at 1064 column(s), 0.000
+Average length for reductees: 9.65 [279], reductors: 129.32 [2677]
+Symbolic reduction time: 0.010, column sort time: 0.000
+279 + 2677 = 2956 rows / 2716 columns out of 20349 (13.347%)
+Density: 4.3455% / 8.3342% (118.02/r), total: 348875 (1.3MB)
+Before ech memory: 544.6MB, max: 1283.9MB
+Row sort time: 0.000
+[15 threads]
+0.000 + 0.000 = 0.000 [9]
+After ech memory: 544.6MB, max: 1283.9MB
+Num new polynomials: 9 (3.2%), min deg: 3 [8], av deg: 3.2
+Degree counts: 3:8 5:1
+Queue insertion time: 0.000
+Number of linears: 2
+Step 20 time: 0.010, [0.009], mat/total: 105.220/112.579, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 21
+Basis length: 7795, queue length: 64485, step degree: 4, num pairs: 112
+Basis total mons: 14236348, average length: 1826.344
+Number of pair polynomials: 112, at 559 column(s), 0.000
+Average length for reductees: 9.25 [112], reductors: 78.74 [876]
+Symbolic reduction time: 0.000, column sort time: 0.000
+112 + 876 = 988 rows / 896 columns out of 4845 (18.493%)
+Density: 7.9092% / 15.223% (70.866/r), total: 70016 (0.3MB)
+Before ech memory: 544.6MB, max: 1283.9MB
+Row sort time: 0.000
+[15 threads]
+0.010 + 0.000 = 0.010 [0]
+After ech memory: 544.6MB, max: 1283.9MB
+No new polynomials
+Queue insertion time: 0.000
+Number of linears: 2
+Step 21 time: 0.010, [0.002], mat/total: 105.230/112.590, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 22
+Basis length: 7795, queue length: 64373, step degree: 6, num pairs: 15
+Basis total mons: 14236348, average length: 1826.344
+1 pair eliminated
+Number of pair polynomials: 14, at 165 column(s), 0.000
+Average length for reductees: 9.00 [14], reductors: 45.23 [724]
+Symbolic reduction time: 0.000, column sort time: 0.000
+14 + 724 = 738 rows / 744 columns out of 74613 (0.997%)
+Density: 5.9865% / 13.705% (44.539/r), total: 32870 (0.1MB)
+Before ech memory: 544.6MB, max: 1283.9MB
+Row sort time: 0.000
+[15 threads]
+0.000 + 0.000 = 0.000 [0]
+After ech memory: 544.6MB, max: 1283.9MB
+No new polynomials
+Queue insertion time: 0.000
+Number of linears: 2
+Step 22 time: 0.000, [0.001], mat/total: 105.230/112.590, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 23
+Basis length: 7795, queue length: 64358, step degree: 8, num pairs: 4475
+Basis total mons: 14236348, average length: 1826.344
+816 pairs eliminated
+Number of pair polynomials: 3659, at 31322 column(s), 0.079
+Average length for reductees: 499.69 [3659], reductors: 401.97 [62762]
+Symbolic reduction time: 0.159, column sort time: 0.019
+3659 + 62762 = 66421 rows / 62792 columns out of 735471 (8.538%)
+Density: 0.64874% / 1.4189% (407.36/r), total: 27056957 (103.2MB)
+Before ech memory: 544.6MB, max: 1283.9MB
+Row sort time: 0.000
+[15 threads]
+3.570 + 0.009 = 3.579 [0]
+After ech memory: 544.6MB, max: 1283.9MB
+No new polynomials
+Queue insertion time: 0.000
+Number of linears: 2
+Step 23 time: 3.839, [0.710], mat/total: 108.810/116.429, mem: 544.6MB, max: 
+1283.9MB
+
+*******
+STEP 24
+Basis length: 7795, queue length: 59883, step degree: 9, num pairs: 44573
+Basis total mons: 14236348, average length: 1826.344
+44573 pairs eliminated
+No pairs to reduce
+Pair elimination time: 0.000
+
+*******
+STEP 25
+Basis length: 7795, queue length: 15310, step degree: 10, num pairs: 6640
+Basis total mons: 14236348, average length: 1826.344
+6640 pairs eliminated
+No pairs to reduce
+Pair elimination time: 0.000
+
+*******
+STEP 26
+Basis length: 7795, queue length: 8670, step degree: 11, num pairs: 3872
+Basis total mons: 14236348, average length: 1826.344
+3872 pairs eliminated
+No pairs to reduce
+Pair elimination time: 0.000
+
+*******
+STEP 27
+Basis length: 7795, queue length: 4798, step degree: 12, num pairs: 2548
+Basis total mons: 14236348, average length: 1826.344
+2548 pairs eliminated
+No pairs to reduce
+Pair elimination time: 0.000
+
+*******
+STEP 28
+Basis length: 7795, queue length: 2250, step degree: 13, num pairs: 1585
+Basis total mons: 14236348, average length: 1826.344
+1585 pairs eliminated
+No pairs to reduce
+Pair elimination time: 0.000
+
+*******
+STEP 29
+Basis length: 7795, queue length: 665, step degree: 14, num pairs: 664
+Basis total mons: 14236348, average length: 1826.344
+664 pairs eliminated
+No pairs to reduce
+Pair elimination time: 0.000
+
+*******
+STEP 30
+Basis length: 7795, queue length: 1, step degree: 15, num pairs: 1
+Basis total mons: 14236348, average length: 1826.344
+1 pair eliminated
+No pairs to reduce
+Pair elimination time: 0.000
+
+Reduce 7795 final polynomial(s) by 7795
+13 redundant polynomial(s) removed; time: 0.000
+Interreduce 128 (out of range [0 .. 7794] = 7795) polynomial(s)
+Symbolic reduction time: 0.000
+Column sort time: 0.000
+128 + 55 = 183 rows / 243 columns
+Density: 5.2059% / 13.198% (12.65/r), total: 2315 (0.0MB)
+Row sort time: 0.000
+[15 threads]
+0.000 + 0.000 = 0.000 [128]
+Total reduction time: 0.000
+Reduction time: 0.000
+Final number of polynomials: 7782
+
+Final basis length: 128
+Number of pairs: 53423
+Total pair setup time: 0.920
+Max step: 7, time: 92.360
+Max num entries matrix: 191703 by 192072
+Max num rows matrix: 191703 by 192072
+Approx mat cost: 6.19557e+12, sym red cost: 1.91354e+08
+Approx mat time: 390.914, sym red time: 1.914, total 392.827
+Total symbolic reduction time: 0.970
+Total column sort time: 0.110
+Total row sort time: 0.040
+Total matrix time: 108.810
+Total new polys time: 0.040
+Total queue update time: 5.570
+Total Faugere F4 time: 116.450, real time: 23.404
+Time: 116.450
+
+Total time: 116.510 seconds, Total memory usage: 1283.91MB
+[+] Command exited with status 0

@@ -9,7 +9,7 @@ This folder contains the results used in Section 5, **Experimental results**.
 These files are included so that anyone can inspect the generated systems and validate the reported experiments.
 
 ### `unpublished/`
-This folder contains older and unpublished work dating from 2020, related to the factorisation idea later seen in the X-1 algorithm.
+This folder contains older and unpublished work dating from 2020, related to the factorisation idea later seen in the X-1 algorithm. These draft contain several erroneous claims and math errors. 
 
 ## Main scripts
 
@@ -21,7 +21,7 @@ Generates a system of equations with:
 
 This script implements the Facto-DSA construction.
 
-### `equal-deg.py`
+### `edf.py`
 Generates a system of equations with:
 
 - `2n` equations
